@@ -7,7 +7,7 @@
 
 int search(int * array, int length, int target_value);
 
-int process_master();
+int linear_search_process(int * array, int length, int start, int target_value);
 
 char * get_mode();
 

@@ -24,12 +24,15 @@ char * get_mode();
 
 int search(int * array, int length, int target_value) {
 
+    int index = -1;
+
     // Compute number of threads to run
     int num_threads = length / THREAD_INTERVAL;
 
     // Generate array to store threads
     pthread_t threads[num_threads];
     int return_values[num_threads];
+    // params_t * params[num_threads];
 
     for(int i = 0; i < num_threads; i++) {
         pthread_t thread_handle;
@@ -41,21 +44,31 @@ int search(int * array, int length, int target_value) {
         parameters->length = length;
         parameters->array = array;
 
+        // Must maintain record of param structs for freeing later
+        // params[i] = parameters;
+
         return_values[i] = (int) pthread_create( &thread_handle, NULL, linear_search_thread, (void *) parameters);
         threads[i] = thread_handle;
+
+        // todo figure out if this is okay or if the parameters must remain persistent until thread is terminated
+        free(parameters);
     }
 
     // Await threads to complete
     for(int i = 0; i < num_threads; i++) {
         pthread_join(threads[i], NULL);
+
+        // Free parameter structs
+        // free(params[i]);
+
         if(!return_values[i]) {
-            return return_values[i];
+            index = return_values[i];
         }
     }
 
-    // Return index if target_value was found, otherwise null
+    // Return index if target_value was found, otherwise -1
 
-    return -1;
+    return index;
 }
 
 void * linear_search_thread(void * parameters) {
