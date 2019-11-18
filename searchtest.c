@@ -12,8 +12,7 @@ void fill_array(int * array, int length);
 void scramble_array(int * array, int length);
 void swap(int * array, int index, int length);
 int test_search(int * array, int target, int length); //temp
-char * get_mode(); //temp
-long minimum(long * array, int length);
+long minimum(long * array`, int length);
 long maximum(long * array, int length);
 double array_mean(long * array, int length);
 double array_stdDeviation(long * array, double mean, int length);
@@ -142,14 +141,6 @@ void search_C(int * array, int length){
 
 void search_D(int * array, int length){
 
-}
-
-
-
-
-//testing function while libraries are incomplete
-char * get_mode() {
-    return "mode: test";
 }
 
 //helper functions to determine min, max, mean, and standard deviation
