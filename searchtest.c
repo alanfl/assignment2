@@ -27,6 +27,21 @@ When run, your code should print out:
 		- the aggregate results of a test batch once completed (min, max, average, standard deviation)
 */
 
+/*
+You should compare Process and thread runtimes on different amounts of data. Make sure your steps in data size are significant based on what you want to test. You should determine:
+			- a general trend of: time vs. size of list to search for Processes as well as time vs. size of list to search for threads
+			- a tradeoff point for Processes vs threads
+				i.e. how long a list would cause threads to perform at the same rate as a Process
+					e.g. perhaps, if you create a new thread/Proc for every 250 integers, then searching a list of 5000 integers using threads (requiring 20 threads) is as fast as searching a list of 250 integers using a single Process
+			- a tradeoff point for parallelism for Processes and threads
+				i.e. at what point does splitting the work over more Processes/threads make the task take longer than not doing so?
+					e.g. perhaps sorting a list of 250 elements, but splitting it up in to lists of size 10 (requiring 25 threads) is slower than splitting it up in to lists of size 11 (requiring 22 threads)
+*/
+
+//Your code should split the list of numbers given in to groups of no more than 
+//250 values and create another Process or thread to search each.
+
+
 int main(int argc, char** argv) {
 	//check for arguments
 	if(argc > 3){
@@ -36,11 +51,14 @@ int main(int argc, char** argv) {
 		printf("Error: Not enough arguments\n");
 		return 0;
 	}	
-
+	
 	//make sure interval isnt too large, no negative inputs
 	int length = atoi(argv[1]), interval = atoi(argv[2]);	
 	if(length < 0 || interval < 0){
 		printf("Error: Invalid input\n");
+		return 0;
+	}else if(interval > 250){
+		printf("Error: Interval too large\n");
 		return 0;
 	}
 
@@ -63,9 +81,9 @@ int main(int argc, char** argv) {
 		results[i] = 0;
 	}
 
-	target = rand() % length; //target will not change, but will be moved	
+	target = rand() % length; //target will not change, but will be moved
 	for(i = 0; i < size; i++){
-		if(index != -1){
+		if(index != -1){//after the first run, target will be moved
 			swap(array, index, length);
 		}
 		
@@ -82,8 +100,6 @@ int main(int argc, char** argv) {
 		long microseconds = end.tv_usec - start.tv_usec;
 		long timeElapsed = ((seconds * 1000000) + microseconds);
 		results[i] = timeElapsed;
-		//printf("%ld\n", timeElapsed);
-
 	}
 	
 	evaluate_results(results, size);
@@ -168,11 +184,11 @@ double array_stdDeviation(long * array, double mean, int length){
 		sum += pow((double)array[i] - mean, 2);
 	}
 	
-	//printf("Sum = %f\n", sum);
 	stdDev = sqrt(sum / (double)length);
 	return stdDev;
 }
 
+//calculates and prints all of the results
 void evaluate_results(long * array, int length){
 	long min, max;
 	double mean, stdDev;

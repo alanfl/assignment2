@@ -1,0 +1,106 @@
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 1000 50
+mode: multi-process
+Min = 3586 microseconds
+Max = 5995 microseconds
+Mean = 4089.880000 microseconds
+Standard Deviation = 532.470718 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 1000 50
+mode: multi-thread
+Min = 3474 microseconds
+Max = 7273 microseconds
+Mean = 4347.810000 microseconds
+Standard Deviation = 567.867004 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 1000 100
+mode: multi-process
+Min = 2040 microseconds
+Max = 4062 microseconds
+Mean = 2558.880000 microseconds
+Standard Deviation = 361.855034 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 1000 100
+mode: multi-thread
+Min = 1687 microseconds
+Max = 4100 microseconds
+Mean = 2081.350000 microseconds
+Standard Deviation = 370.000713 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 1000 150
+mode: multi-process
+Min = 1383 microseconds
+Max = 2175 microseconds
+Mean = 1653.840000 microseconds
+Standard Deviation = 210.208264 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 1000 150
+mode: multi-thread
+Min = 937 microseconds
+Max = 2880 microseconds
+Mean = 1150.310000 microseconds
+Standard Deviation = 252.819766 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 1000 200
+mode: multi-process
+Min = 1219 microseconds
+Max = 1771 microseconds
+Mean = 1418.230000 microseconds
+Standard Deviation = 137.821396 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 1000 200
+mode: multi-thread
+Min = 793 microseconds
+Max = 2525 microseconds
+Mean = 1059.960000 microseconds
+Standard Deviation = 223.054833 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 1000 250
+mode: multi-process
+Min = 1067 microseconds
+Max = 1624 microseconds
+Mean = 1233.920000 microseconds
+Standard Deviation = 148.251319 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 1000 250
+mode: multi-thread
+Min = 636 microseconds
+Max = 2526 microseconds
+Mean = 856.340000 microseconds
+Standard Deviation = 252.543233 microseconds
+
+------------------------------------------------------------
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 10000 100
+mode: multi-process
+Min = 16746 microseconds
+Max = 35621 microseconds
+Mean = 22873.530000 microseconds
+Standard Deviation = 3608.682016 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 10000 100
+mode: multi-thread
+Min = 17902 microseconds
+Max = 36354 microseconds
+Mean = 21054.990000 microseconds
+Standard Deviation = 2395.069767 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_proc 10000 250
+mode: multi-process
+Min = 6982 microseconds
+Max = 13050 microseconds
+Mean = 8260.200000 microseconds
+Standard Deviation = 1285.182882 microseconds
+
+[jdm362@ilab3 assignment2]$ ./searchtest_thread 10000 250
+mode: multi-thread
+Min = 7013 microseconds
+Max = 15470 microseconds
+Mean = 8033.500000 microseconds
+Standard Deviation = 903.377579 microseconds
+
+
+
+
+
+
+
