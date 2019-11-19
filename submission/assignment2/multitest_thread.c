@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <stdio.h>
+#include <sys/types.h>
 
 // This constant defines the maximum interval that any thread must iterate when performing its search
 int THREAD_INTERVAL = 0;
@@ -85,7 +86,6 @@ void * linear_search_thread(void * parameters) {
 
     for(int i = start; i < end; i++) {
         if(array[i] == params->target_value) {
-            printf("found\n");
             params->return_value = i;
             pthread_exit(NULL);
         }
