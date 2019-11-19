@@ -5,14 +5,12 @@
 #include "multitest.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h> //gcc -lm
+#include <math.h>
 #include <sys/time.h>
 
 void fill_array(int * array, int length);
 void scramble_array(int * array, int length);
 void swap(int * array, int index, int length);
-//int test_search(int * array, int target, int length); //temp
-//char * test_get_mode(); //temp
 long minimum(long * array, int length);
 long maximum(long * array, int length);
 double array_mean(long * array, int length);
@@ -44,10 +42,7 @@ int main(int argc, char** argv) {
 	if(length < 0 || interval < 0){
 		printf("Error: Invalid input\n");
 		return 0;
-	}else if(interval > 250){
-		printf("Error: Interval is too large\n");
-		return 0;
-	}	
+	}
 
 	set_interval(interval);
 
@@ -61,7 +56,7 @@ int main(int argc, char** argv) {
 	scramble_array(array, length);
 
 	//implement test here
-	int i, size = 500; //how many times this will run
+	int i, size = 100; //how many times this will run
 	long * results = malloc(sizeof(long) * size);
 	int index = -1, target;
 	for(i = 0; i < size; i++){
@@ -190,29 +185,3 @@ void evaluate_results(long * array, int length){
 	printf("Mean = %f microseconds\n", mean);
 	printf("Standard Deviation = %f microseconds\n", stdDev);
 }
-
-/*
-//temp functions
-char * test_get_mode(){
-	return "Mode: Test";
-}
-
-//test search while libraries are incomplete
-int test_search(int * array, int target, int length){
-	int x, i;
-	
-	//runtimes were between 0 and 1 microseconds with this search	
-	for(i = 0; i < 10000; i++){
-
-	}
-
-	for(i = 0; i < length; i++){
-		x = array[i];
-		if(x == target){
-			return i;
-		}
-	}
-	
-	return -1;
-}
-*/
