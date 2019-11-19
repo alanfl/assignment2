@@ -12,15 +12,12 @@ void fill_array(int * array, int length);
 void scramble_array(int * array, int length);
 void swap(int * array, int index, int length);
 int test_search(int * array, int target, int length); //temp
-long minimum(long * array`, int length);
+char * test_get_mode();
+long minimum(long * array, int length);
 long maximum(long * array, int length);
 double array_mean(long * array, int length);
 double array_stdDeviation(long * array, double mean, int length);
 void evaluate_results(long * array, int length);
-void search_A(int * array, int length);
-void search_B(int * array, int length);
-void search_C(int * array, int length);
-void search_D(int * array, int length);
 
 /*
 When run, your code should print out:
@@ -33,35 +30,78 @@ When run, your code should print out:
 */
 
 int main(int argc, char** argv) {
+	//check for arguments
+	if(argc > 3){
+		printf("Error: Too many arguments\n");
+		return 0;
+	}else if(argc < 3){
+		printf("Error: Not enough arguments\n");
+		return 0;
+	}	
+
+	//make sure interval isnt too large, no negative inputs
+	int length = atoi(argv[1]), interval = atoi(argv[2]);	
+	if(length < 0 || interval < 0){
+		printf("Error: Invalid input\n");
+		return 0;
+	}else if(interval > 250){
+		printf("Error: Interval is too large\n");
+		return 0;
+	}	
+
 	//get mode and print
-	char* mode = get_mode();
+	char* mode = test_get_mode();
 	printf("%s\n", mode);
 	
 	//sets length of array to be used for searching
-	int length = 100, i;
 	int * array = malloc(sizeof(int) * length);
 	fill_array(array, length);
 	scramble_array(array, length);
 
-	//testing
-	/*
-	for(i = 0; i < length; i++){
-		printf("%d\n", array[i]);
+	//implement test here
+	int i, size = 500; //how many times this will run
+	long * results = malloc(sizeof(long) * size);
+	int index = -1, target, next;
+	for(i = 0; i < size; i++){
+		results[i] = 0;
 	}
-	*/
 
-	//call workloads that will test and print all relevant data
-	search_A(array, length);
-	search_B(array, length);
-	search_C(array, length);
-	search_D(array, length);
+	target = rand() % length; //target will not change, but will be moved
+		
+	for(i = 0; i < size; i++){
+		if(index != -1){
+			swap(array, index, length);
+		}
+		
+		//measure length of the search
+		//start time
+		struct timeval start, end;
+		gettimeofday(&start, NULL);	
+	
+		index = test_search(array, length, target);
+		
+		//end time
+		gettimeofday(&end, NULL);
+		long seconds = end.tv_sec - start.tv_sec;
+		long microseconds = end.tv_usec - start.tv_usec;
+		long timeElapsed = ((seconds * 1000000) + microseconds);
+		results[i] = timeElapsed;
+		//printf("%ld\n", timeElapsed);
 
-	//free array
+	}
+	
+	evaluate_results(results, size);
+	
+	//free arrays
 	free(array);
+	free(results);
 
 	return 0;
 }
 
+char * test_get_mode(){
+	return "Mode: Test";
+}
 
 void fill_array(int * array, int length) {
 	int i;
@@ -88,59 +128,6 @@ void swap(int * array, int index, int length){
 	next = rand() % length;
 	array[index] = array[next];
 	array[next] = temp;
-}
-
-//unknown purpose yet
-void search_A(int * array, int length){
-	//print about this test
-
-	int size = 100;//how many times this will run
-	long * results = malloc(sizeof(long) * size);
-	int i, index = -1, target, next;
-	for(i = 0; i < size; i++){
-		results[i] = 0;
-	}
-
-	target = rand() % 100; //target will not change, but will be moved
-		
-	for(i = 0; i < size; i++){
-		if(index != -1){
-			swap(array, index, length);
-		}
-		
-		//measure length of the search
-		//start time
-		struct timeval start, end;
-		gettimeofday(&start, NULL);	
-	
-		index = test_search(array, length, target);
-		
-		//end time
-		gettimeofday(&end, NULL);
-		long seconds = end.tv_sec - start.tv_sec;
-		long microseconds = end.tv_usec - start.tv_usec;
-		long timeElapsed = ((seconds * 1000000) + microseconds);
-		results[i] = timeElapsed;
-		//printf("%ld\n", timeElapsed);
-
-	}
-	
-	evaluate_results(results, size);
-	free(results);
-}
-
-
-
-void search_B(int * array, int length){
-
-}
-
-void search_C(int * array, int length){
-
-}
-
-void search_D(int * array, int length){
-
 }
 
 //helper functions to determine min, max, mean, and standard deviation
