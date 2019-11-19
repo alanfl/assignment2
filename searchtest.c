@@ -11,8 +11,8 @@
 void fill_array(int * array, int length);
 void scramble_array(int * array, int length);
 void swap(int * array, int index, int length);
-int test_search(int * array, int target, int length); //temp
-char * test_get_mode();
+//int test_search(int * array, int target, int length); //temp
+//char * test_get_mode(); //temp
 long minimum(long * array, int length);
 long maximum(long * array, int length);
 double array_mean(long * array, int length);
@@ -49,8 +49,10 @@ int main(int argc, char** argv) {
 		return 0;
 	}	
 
+	set_interval(interval);
+
 	//get mode and print
-	char* mode = test_get_mode();
+	char* mode = get_mode();
 	printf("%s\n", mode);
 	
 	//sets length of array to be used for searching
@@ -61,13 +63,12 @@ int main(int argc, char** argv) {
 	//implement test here
 	int i, size = 500; //how many times this will run
 	long * results = malloc(sizeof(long) * size);
-	int index = -1, target, next;
+	int index = -1, target;
 	for(i = 0; i < size; i++){
 		results[i] = 0;
 	}
 
-	target = rand() % length; //target will not change, but will be moved
-		
+	target = rand() % length; //target will not change, but will be moved	
 	for(i = 0; i < size; i++){
 		if(index != -1){
 			swap(array, index, length);
@@ -78,8 +79,8 @@ int main(int argc, char** argv) {
 		struct timeval start, end;
 		gettimeofday(&start, NULL);	
 	
-		index = test_search(array, length, target);
-		
+		index = search(array, length, target);
+
 		//end time
 		gettimeofday(&end, NULL);
 		long seconds = end.tv_sec - start.tv_sec;
@@ -97,10 +98,6 @@ int main(int argc, char** argv) {
 	free(results);
 
 	return 0;
-}
-
-char * test_get_mode(){
-	return "Mode: Test";
 }
 
 void fill_array(int * array, int length) {
@@ -124,7 +121,7 @@ void scramble_array(int * array, int length) {
 //swaps location of target randomly
 void swap(int * array, int index, int length){
 	int temp, next;
-	array[index] = temp;
+	temp = array[index];
 	next = rand() % length;
 	array[index] = array[next];
 	array[next] = temp;
@@ -194,6 +191,12 @@ void evaluate_results(long * array, int length){
 	printf("Standard Deviation = %f microseconds\n", stdDev);
 }
 
+/*
+//temp functions
+char * test_get_mode(){
+	return "Mode: Test";
+}
+
 //test search while libraries are incomplete
 int test_search(int * array, int target, int length){
 	int x, i;
@@ -209,6 +212,7 @@ int test_search(int * array, int target, int length){
 			return i;
 		}
 	}
-
+	
 	return -1;
 }
+*/
