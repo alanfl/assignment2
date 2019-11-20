@@ -62,6 +62,7 @@ int search(int * array, int length, int target_value) {
     for(int i = 0; i < num_threads; i++) {
         pthread_join(threads[i], NULL);
 
+        // Check return value on returned threads
         if(parameters[i].return_value != -1) {
             index = parameters[i].return_value;
         }
@@ -84,6 +85,7 @@ void * linear_search_thread(void * parameters) {
 
     int * array = params->array;
 
+    // Iterate through interval
     for(int i = start; i < end; i++) {
         if(array[i] == params->target_value) {
             params->return_value = i;
