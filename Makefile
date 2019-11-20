@@ -3,12 +3,12 @@ CC=gcc
 LIBS = -lm -lpthread
 
 all:
-	$(error please compile with target 'searchtest_proc' or 'searchtest_thread')
+	$(error please compile with target 'proc' or 'thread')
 
-searchtest_proc: searchtest.o multitest_proc.o
+proc: searchtest.o multitest_proc.o
 	$(CC) $(FLAGS) $(LIBS) -o $@ $^
 
-searchtest_thread: searchtest.o multitest_thread.o
+thread: searchtest.o multitest_thread.o
 	$(CC) $(FLAGS) $(LIBS) -o $@ $^ 
 
 multitest_thread.o: multitest_thread.c multitest.h
@@ -20,4 +20,4 @@ multitest_proc.o: multitest_proc.c multitest.h
 .PHONY: clean
 
 clean:
-	rm -f *.o *.i *.bc *.s searchtest_thread searchtest_proc
+	rm -f *.o *.i *.bc *.s thread proc
