@@ -16,6 +16,7 @@ long maximum(long * array, int length);
 double array_mean(long * array, int length);
 double array_stdDeviation(long * array, double mean, int length);
 void evaluate_results(long * array, int length);
+void run_search(int * array, int length, int interval, int testPlan);
 
 /*
 When run, your code should print out:
@@ -53,27 +54,59 @@ int main(int argc, char** argv) {
 	}	
 	
 	//make sure interval isnt too large, no negative inputs
+	int testPlan, i;
 	int length = atoi(argv[1]), interval = atoi(argv[2]);	
-	if(length < 0 || interval < 0){
+	if(length < 0 || interval < -1){
 		printf("Error: Invalid input\n");
 		return 0;
 	}else if(interval > 250){
 		printf("Error: Interval too large\n");
 		return 0;
+	}else if(interval == -1){
+		testPlan = 2;
+	}else if(length < 10000){ //all of test plan is less than 10k
+		testPlan = 1;
+	}else{
+		testPlan = 3; //extremes test
 	}
-
-	set_interval(interval);
-
-	//get mode and print
-	char* mode = get_mode();
-	printf("%s\n", mode);
 	
 	//sets length of array to be used for searching
 	int * array = malloc(sizeof(int) * length);
 	fill_array(array, length);
 	scramble_array(array, length);
 
-	//implement test here
+	if(testPlan == 2){
+		for(i = 1; i <= 50; i++){
+			//check if length is divisible by this number of 
+			//procs/threads and calculate interval
+			if((length % i) == 0){
+				int newInterval = length / i;
+				if(newInterval > 250){
+					continue;
+				}
+				set_interval(newInterval); 
+				run_search(array, length, newInterval, testPlan);
+				//make output neater
+				if(i != 50){
+					printf("\n");
+				}
+			}
+		}
+	}else{
+		set_interval(interval);
+		run_search(array, length, interval, testPlan);
+	}
+
+	//free arrays
+	free(array);
+
+	return 0;
+}
+
+void run_search(int * array, int length, int interval, int testPlan){
+	//get mode and print
+	char* mode = get_mode();
+	printf("%s\n", mode);		
 	int i, size = 100; //how many times this will run
 	long * results = malloc(sizeof(long) * size);
 	int index = -1, target;
@@ -81,12 +114,16 @@ int main(int argc, char** argv) {
 		results[i] = 0;
 	}
 
+	printf("Running Test %d: Length = %d, Interval = %d\n", testPlan, length, interval);
+
 	target = rand() % length; //target will not change, but will be moved
 	for(i = 0; i < size; i++){
 		if(index != -1){//after the first run, target will be moved
 			swap(array, index, length);
 		}
 		
+		//printf("Iteration %d\n", i);
+
 		//measure length of the search
 		//start time
 		struct timeval start, end;
@@ -101,14 +138,11 @@ int main(int argc, char** argv) {
 		long timeElapsed = ((seconds * 1000000) + microseconds);
 		results[i] = timeElapsed;
 	}
-	
+
 	evaluate_results(results, size);
-	
-	//free arrays
-	free(array);
 	free(results);
 
-	return 0;
+
 }
 
 void fill_array(int * array, int length) {
