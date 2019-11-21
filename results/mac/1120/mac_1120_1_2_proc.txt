@@ -1,0 +1,114 @@
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 28257.270000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 28890.530000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 28495.620000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 28994.320000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 30190.530000 microseconds
+
+500 50 Mean = 28965.654
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 28717.640000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 28021.230000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 28228.130000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 28768.770000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 28736.540000 microseconds
+
+1000 100 Mean = 28494.462
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 28979.990000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 28215.400000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 28728.800000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 28495.850000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 29058.030000 microseconds
+
+1500 150 Mean = 28695.614
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 28658.840000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 28863.050000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 28711.550000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 28642.720000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 28876.830000 microseconds
+
+2000 200 Mean = 28750.598
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 29267.360000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 28757.070000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 29580.420000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 29724.810000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 28995.120000 microseconds
+
+2500 250 Mean = 29264.956
