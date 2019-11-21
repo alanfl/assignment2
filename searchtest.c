@@ -85,7 +85,13 @@ int main(int argc, char** argv) {
 					continue;
 				}
 				set_interval(newInterval); 
-				run_search(array, length, newInterval, testPlan);
+				
+				int j = 0;
+				for(j = 0; j < 5; j++){
+					run_search(array, length, newInterval, testPlan);
+				}
+
+				//run_search(array, length, newInterval, testPlan);
 				//make output neater
 				if(i != 50){
 					printf("\n");
@@ -94,7 +100,13 @@ int main(int argc, char** argv) {
 		}
 	}else{
 		set_interval(interval);
-		run_search(array, length, interval, testPlan);
+	
+		int j = 0;
+		for(j = 0; j < 5; j++){
+			run_search(array, length, interval, testPlan);
+		}	
+
+		//run_search(array, length, interval, testPlan);
 	}
 
 	//free arrays

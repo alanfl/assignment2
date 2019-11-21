@@ -138,7 +138,7 @@ mode: multi-thread
 Running Test 1: Length = 250, Interval = 50
 Mean = 1391.510000 microseconds
 
-250 50 Mean = 
+250 50 Mean = 1201.982
 
 [jdm362@pascal assignment2]$ ./thread 500 100
 mode: multi-thread
@@ -161,7 +161,7 @@ mode: multi-thread
 Running Test 1: Length = 500, Interval = 100
 Mean = 1404.230000 microseconds
 
-500 100 Mean = 
+500 100 Mean = 1187.124
 
 [jdm362@pascal assignment2]$ ./thread 750 150
 mode: multi-thread
@@ -184,7 +184,7 @@ mode: multi-thread
 Running Test 1: Length = 750, Interval = 150
 Mean = 944.200000 microseconds
 
-750 150 Mean = 
+750 150 Mean = 1106.676
 
 [jdm362@pascal assignment2]$ ./thread 1000 200
 mode: multi-thread
@@ -207,7 +207,7 @@ mode: multi-thread
 Running Test 1: Length = 1000, Interval = 200
 Mean = 890.600000 microseconds
 
-1000 200 Mean = 
+1000 200 Mean = 1286.908
 
 [jdm362@pascal assignment2]$ ./thread 1250 250
 mode: multi-thread
@@ -230,7 +230,7 @@ mode: multi-thread
 Running Test 1: Length = 1250, Interval = 250
 Mean = 1111.740000 microseconds
 
-1250 250 Mean = 
+1250 250 Mean = 1461.632
 
 
 
