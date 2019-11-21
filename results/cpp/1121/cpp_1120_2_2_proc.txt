@@ -1,0 +1,128 @@
+[afl59@cpp assignment2]$ ./proc 1000 -1
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 1068.430000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 970.440000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 1006.600000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 989.200000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 986.540000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 1120.870000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 1313.650000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 1184.780000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 1033.630000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 1023.870000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 1405.130000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 1358.880000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 1384.560000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 1370.740000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 1359.780000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 1613.330000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 1698.300000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 1730.860000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 1738.460000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 1639.210000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 3140.430000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 3373.300000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 2968.870000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 2945.370000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 2947.080000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 3653.060000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 3640.540000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 4224.610000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 3918.620000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 3641.340000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 5729.370000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 5659.450000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 6218.550000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 5636.800000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 5547.500000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 6778.260000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 7561.760000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 6878.610000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 6958.460000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 7619.890000 microseconds

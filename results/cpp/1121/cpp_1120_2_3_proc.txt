@@ -1,0 +1,64 @@
+[afl59@cpp assignment2]$ ./proc 5000 -1
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 3074.490000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 3105.910000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 3120.140000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 3219.940000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 3296.080000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 3894.360000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 3937.890000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 3801.170000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 3873.970000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 4101.170000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 5910.640000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 5939.290000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 5854.120000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 6350.100000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 5935.800000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 7289.680000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 6992.840000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 7777.870000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 7361.520000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 7362.680000 microseconds
