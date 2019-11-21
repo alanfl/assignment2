@@ -54,3 +54,6 @@ dkms.conf
 # CLion files
 CMakeLists.txt
 cmake-build-debug/
+
+# MacOS
+.DS_Store
