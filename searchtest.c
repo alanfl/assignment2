@@ -230,8 +230,8 @@ void evaluate_results(long * array, int length){
 	max = maximum(array, length);
 	mean = array_mean(array, length);
 	stdDev = array_stdDeviation(array, mean, length);
-	printf("Min = %ld microseconds\n", min);
-	printf("Max = %ld microseconds\n", max);
+	//printf("Min = %ld microseconds\n", min);
+	//printf("Max = %ld microseconds\n", max);
 	printf("Mean = %f microseconds\n", mean);
-	printf("Standard Deviation = %f microseconds\n", stdDev);
+	//printf("Standard Deviation = %f microseconds\n", stdDev);
 }
