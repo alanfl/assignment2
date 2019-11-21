@@ -1,0 +1,128 @@
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 -1
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 16091.960000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 18649.200000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 16379.520000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 16960.620000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 250
+Mean = 15723.810000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 18032.300000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 19836.820000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 18124.790000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 18390.720000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 200
+Mean = 17842.130000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 26270.980000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 28535.020000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 32045.620000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 25625.930000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 125
+Mean = 25723.800000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 32502.700000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 30959.870000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 30910.890000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 30515.430000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 100
+Mean = 31274.670000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 57728.270000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 56344.080000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 56581.360000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 56517.770000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 50
+Mean = 60519.550000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 73491.660000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 70357.120000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 72920.820000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 69900.990000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 40
+Mean = 69449.960000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 107893.080000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 109726.110000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 108934.990000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 109867.160000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 25
+Mean = 107212.600000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 137682.250000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 133734.120000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 134370.490000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 133291.030000 microseconds
+mode: multi-process
+Running Test 2: Length = 1000, Interval = 20
+Mean = 134016.110000 microseconds

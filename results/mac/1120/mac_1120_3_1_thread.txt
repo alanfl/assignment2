@@ -1,0 +1,45 @@
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 3112.860000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 2780.620000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 2761.170000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 2742.160000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 2743.950000 microseconds
+mode: multi-thread
+Running Test 3: Length = 15000, Interval = 250
+Mean = 4090.740000 microseconds
+mode: multi-thread
+Running Test 3: Length = 15000, Interval = 250
+Mean = 4061.870000 microseconds
+mode: multi-thread
+Running Test 3: Length = 15000, Interval = 250
+Mean = 4084.760000 microseconds
+mode: multi-thread
+Running Test 3: Length = 15000, Interval = 250
+Mean = 4112.940000 microseconds
+mode: multi-thread
+Running Test 3: Length = 15000, Interval = 250
+Mean = 4118.410000 microseconds
+mode: multi-thread
+Running Test 3: Length = 20000, Interval = 250
+Mean = 5636.920000 microseconds
+mode: multi-thread
+Running Test 3: Length = 20000, Interval = 250
+Mean = 5541.300000 microseconds
+mode: multi-thread
+Running Test 3: Length = 20000, Interval = 250
+Mean = 5524.900000 microseconds
+mode: multi-thread
+Running Test 3: Length = 20000, Interval = 250
+Mean = 5532.070000 microseconds
+mode: multi-thread
+Running Test 3: Length = 20000, Interval = 250
+Mean = 5528.310000 microseconds

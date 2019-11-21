@@ -1,0 +1,64 @@
+admins-MacBook-Pro-4:assignment2 test$ ./proc 5000 -1
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 66117.730000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 58207.010000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 58914.490000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 58498.780000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 250
+Mean = 57419.170000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 72519.910000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 69778.960000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 71092.000000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 72339.880000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 200
+Mean = 70476.900000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 111159.890000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 111566.850000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 109790.730000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 111134.620000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 125
+Mean = 110301.330000 microseconds
+
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 135356.730000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 135215.060000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 134469.430000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 142611.110000 microseconds
+mode: multi-process
+Running Test 2: Length = 5000, Interval = 100
+Mean = 134839.650000 microseconds
