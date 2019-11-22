@@ -1,0 +1,48 @@
+admins-MacBook-Pro-4:assignment2 test$ ./proc 10000 250
+mode: multi-process
+Running Test 3: Length = 10000, Interval = 250
+Mean = 110526.050000 microseconds
+mode: multi-process
+Running Test 3: Length = 10000, Interval = 250
+Mean = 110022.930000 microseconds
+mode: multi-process
+Running Test 3: Length = 10000, Interval = 250
+Mean = 110345.900000 microseconds
+mode: multi-process
+Running Test 3: Length = 10000, Interval = 250
+Mean = 110380.140000 microseconds
+mode: multi-process
+Running Test 3: Length = 10000, Interval = 250
+Mean = 109824.940000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 15000 250
+mode: multi-process
+Running Test 3: Length = 15000, Interval = 250
+Mean = 161612.930000 microseconds
+mode: multi-process
+Running Test 3: Length = 15000, Interval = 250
+Mean = 163941.650000 microseconds
+mode: multi-process
+Running Test 3: Length = 15000, Interval = 250
+Mean = 161758.720000 microseconds
+mode: multi-process
+Running Test 3: Length = 15000, Interval = 250
+Mean = 162616.720000 microseconds
+mode: multi-process
+Running Test 3: Length = 15000, Interval = 250
+Mean = 161927.390000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 20000 250
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 212566.510000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 213512.280000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 216581.690000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 215173.660000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 213853.290000 microseconds

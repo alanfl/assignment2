@@ -1,0 +1,79 @@
+[afl59@cpp assignment2]$ ./proc 500 50                                          mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 2027.530000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 1727.080000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 1677.180000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 1671.260000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 1677.840000 microseconds
+[afl59@cpp assignment2]$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2009.580000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 1683.030000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 1644.970000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 1639.950000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 1657.800000 microseconds
+[afl59@cpp assignment2]$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 1844.650000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 2063.240000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 1773.620000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 1676.700000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 1685.600000 microseconds
+[afl59@cpp assignment2]$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 1738.410000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 1537.590000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 1491.540000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 1583.310000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 1648.180000 microseconds
+[afl59@cpp assignment2]$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 1832.320000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 1690.190000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 1759.020000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 1707.790000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 1741.460000 microseconds

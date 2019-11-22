@@ -1,0 +1,112 @@
+Running Test 1: Length = 250, Interval = 50
+Mean = 15609.700000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 250 50
+mode: multi-process
+Running Test 1: Length = 250, Interval = 50
+Mean = 16574.180000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 250 50
+mode: multi-process
+Running Test 1: Length = 250, Interval = 50
+Mean = 15843.250000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 250 50
+mode: multi-process
+Running Test 1: Length = 250, Interval = 50
+Mean = 16080.700000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 250 50
+mode: multi-process
+Running Test 1: Length = 250, Interval = 50
+Mean = 16689.240000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 100
+mode: multi-process
+
+250 50 Mean = 16159.414
+
+Running Test 1: Length = 500, Interval = 100
+Mean = 15921.500000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 100
+mode: multi-process
+Running Test 1: Length = 500, Interval = 100
+Mean = 16009.920000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 100
+mode: multi-process
+Running Test 1: Length = 500, Interval = 100
+Mean = 15999.530000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 100
+mode: multi-process
+Running Test 1: Length = 500, Interval = 100
+Mean = 16080.530000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 500 100
+mode: multi-process
+Running Test 1: Length = 500, Interval = 100
+Mean = 16532.160000 microseconds
+
+500 50 Mean = 16108.728
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 750 150
+mode: multi-process
+Running Test 1: Length = 750, Interval = 150
+Mean = 16223.490000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 750 150
+mode: multi-process
+Running Test 1: Length = 750, Interval = 150
+Mean = 16230.490000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 750 150
+mode: multi-process
+Running Test 1: Length = 750, Interval = 150
+Mean = 16106.200000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 750 150
+mode: multi-process
+Running Test 1: Length = 750, Interval = 150
+Mean = 16271.420000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 750 150
+mode: multi-process
+Running Test 1: Length = 750, Interval = 150
+Mean = 16682.450000 microseconds
+
+750 150 Mean = 16302.81
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 200
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 200
+Mean = 16165.650000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 200
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 200
+Mean = 17048.830000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 200
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 200
+Mean = 16349.060000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 200
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 200
+Mean = 15977.920000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1000 200
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 200
+Mean = 16118.430000 microseconds
+
+1000 200 Mean = 16331.978
+
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1250 250
+mode: multi-process
+Running Test 1: Length = 1250, Interval = 250
+Mean = 16593.610000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1250 250
+mode: multi-process
+Running Test 1: Length = 1250, Interval = 250
+Mean = 16253.570000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1250 250
+mode: multi-process
+Running Test 1: Length = 1250, Interval = 250
+Mean = 16171.790000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1250 250
+mode: multi-process
+Running Test 1: Length = 1250, Interval = 250
+Mean = 16175.530000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./proc 1250 250
+mode: multi-process
+Running Test 1: Length = 1250, Interval = 250
+Mean = 16680.910000 microseconds
+
+1250 250 Mean = 16375.082

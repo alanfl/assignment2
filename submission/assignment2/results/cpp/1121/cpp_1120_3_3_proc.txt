@@ -1,0 +1,16 @@
+[afl59@cpp assignment2]$ ./proc 20000 250
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 48155.750000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 48708.970000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 48372.660000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 48639.030000 microseconds
+mode: multi-process
+Running Test 3: Length = 20000, Interval = 250
+Mean = 48511.830000 microseconds

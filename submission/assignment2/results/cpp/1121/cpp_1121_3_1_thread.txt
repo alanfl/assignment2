@@ -1,0 +1,15 @@
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 16777.520000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 16886.530000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 16308.700000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 16170.920000 microseconds
+mode: multi-thread
+Running Test 3: Length = 10000, Interval = 250
+Mean = 18429.380000 microseconds

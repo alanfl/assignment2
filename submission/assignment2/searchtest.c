@@ -28,21 +28,6 @@ When run, your code should print out:
 		- the aggregate results of a test batch once completed (min, max, average, standard deviation)
 */
 
-/*
-You should compare Process and thread runtimes on different amounts of data. Make sure your steps in data size are significant based on what you want to test. You should determine:
-			- a general trend of: time vs. size of list to search for Processes as well as time vs. size of list to search for threads
-			- a tradeoff point for Processes vs threads
-				i.e. how long a list would cause threads to perform at the same rate as a Process
-					e.g. perhaps, if you create a new thread/Proc for every 250 integers, then searching a list of 5000 integers using threads (requiring 20 threads) is as fast as searching a list of 250 integers using a single Process
-			- a tradeoff point for parallelism for Processes and threads
-				i.e. at what point does splitting the work over more Processes/threads make the task take longer than not doing so?
-					e.g. perhaps sorting a list of 250 elements, but splitting it up in to lists of size 10 (requiring 25 threads) is slower than splitting it up in to lists of size 11 (requiring 22 threads)
-*/
-
-//Your code should split the list of numbers given in to groups of no more than 
-//250 values and create another Process or thread to search each.
-
-
 int main(int argc, char** argv) {
 	//check for arguments
 	if(argc > 3){
@@ -64,7 +49,7 @@ int main(int argc, char** argv) {
 		return 0;
 	}else if(interval == -1){
 		testPlan = 2;
-	}else if(length < 10000){ //all of test plan is less than 10k
+	}else if(length < 10000){ //all of test plan 1 is less than 10k
 		testPlan = 1;
 	}else{
 		testPlan = 3; //extremes test
@@ -122,7 +107,7 @@ void run_search(int * array, int length, int interval, int testPlan){
 			swap(array, index, length);
 		}
 		
-		//printf("Iteration %d\n", i);
+		printf("Iteration %d\n", i);
 
 		//measure length of the search
 		//start time
@@ -230,8 +215,8 @@ void evaluate_results(long * array, int length){
 	max = maximum(array, length);
 	mean = array_mean(array, length);
 	stdDev = array_stdDeviation(array, mean, length);
-	//printf("Min = %ld microseconds\n", min);
-	//printf("Max = %ld microseconds\n", max);
+	printf("Min = %ld microseconds\n", min);
+	printf("Max = %ld microseconds\n", max);
 	printf("Mean = %f microseconds\n", mean);
-	//printf("Standard Deviation = %f microseconds\n", stdDev);
+	printf("Standard Deviation = %f microseconds\n", stdDev);
 }

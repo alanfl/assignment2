@@ -1,0 +1,191 @@
+[jdm362@ilab2 assignment2]$ ./proc 500 50
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 2686.680000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 2696.290000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 2799.280000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 3422.280000 microseconds
+mode: multi-process
+Running Test 1: Length = 500, Interval = 50
+Mean = 4169.190000 microseconds
+
+Mean = 
+ 
+[jdm362@ilab2 assignment2]$ ./proc 1000 100
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 4257.110000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2868.080000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2657.840000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2788.420000 microseconds
+mode: multi-process
+Running Test 1: Length = 1000, Interval = 100
+Mean = 4268.720000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./proc 1500 150
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 4068.510000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 3560.450000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 3045.930000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 2684.920000 microseconds
+mode: multi-process
+Running Test 1: Length = 1500, Interval = 150
+Mean = 3105.130000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./proc 2000 200
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3963.310000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3245.720000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3565.500000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 2834.130000 microseconds
+mode: multi-process
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3202.430000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./proc 2500 250
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 4337.870000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 3964.420000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 3104.480000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2636.370000 microseconds
+mode: multi-process
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2685.900000 microseconds
+
+Mean = 
+
+-----------------------------------------------------
+
+[jdm362@ilab2 assignment2]$ ./thread 500 50
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 50
+Mean = 5308.260000 microseconds
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 50
+Mean = 4509.820000 microseconds
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 50
+Mean = 2589.300000 microseconds
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 50
+Mean = 2159.540000 microseconds
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 50
+Mean = 2149.260000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./thread 1000 100
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2171.460000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 100
+Mean = 2247.920000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 100
+Mean = 4424.720000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 100
+Mean = 5991.680000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 100
+Mean = 3789.370000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./thread 1500 150
+mode: multi-thread
+Running Test 1: Length = 1500, Interval = 150
+Mean = 2564.990000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1500, Interval = 150
+Mean = 2232.630000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1500, Interval = 150
+Mean = 2569.930000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1500, Interval = 150
+Mean = 7215.040000 microseconds
+mode: multi-thread
+Running Test 1: Length = 1500, Interval = 150
+Mean = 5155.420000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./thread 2000 200
+mode: multi-thread
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3149.240000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2000, Interval = 200
+Mean = 3967.360000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2000, Interval = 200
+Mean = 2228.680000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2000, Interval = 200
+Mean = 2048.330000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2000, Interval = 200
+Mean = 2245.350000 microseconds
+
+Mean = 
+
+[jdm362@ilab2 assignment2]$ ./thread 2500 250
+mode: multi-thread
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2708.720000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2183.850000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2212.450000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2500, Interval = 250
+Mean = 2021.820000 microseconds
+mode: multi-thread
+Running Test 1: Length = 2500, Interval = 250
+Mean = 5146.610000 microseconds
+
+Mean = 

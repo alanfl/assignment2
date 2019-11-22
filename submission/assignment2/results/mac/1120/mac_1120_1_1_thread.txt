@@ -1,0 +1,114 @@
+admins-MacBook-Pro-4:assignment2 test$ ./thread 250 50
+mode: multi-thread
+Running Test 1: Length = 250, Interval = 50
+Mean = 551.610000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 250 50
+mode: multi-thread
+Running Test 1: Length = 250, Interval = 50
+Mean = 506.350000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 250 50
+mode: multi-thread
+Running Test 1: Length = 250, Interval = 50
+Mean = 525.770000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 250 50
+mode: multi-thread
+Running Test 1: Length = 250, Interval = 50
+Mean = 500.390000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 250 50
+mode: multi-thread
+Running Test 1: Length = 250, Interval = 50
+Mean = 581.450000 microseconds
+
+250 50 Mean = 533.114
+
+admins-MacBook-Pro-4:assignment2 test$ ./thread 500 100
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 100
+Mean = 426.110000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 500 100
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 100
+Mean = 491.230000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 500 100
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 100
+Mean = 570.170000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 500 100
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 100
+Mean = 497.930000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 500 100
+mode: multi-thread
+Running Test 1: Length = 500, Interval = 100
+Mean = 508.220000 microseconds
+
+500 100 Mean = 498.732
+
+admins-MacBook-Pro-4:assignment2 test$ ./thread 750 150
+mode: multi-thread
+Running Test 1: Length = 750, Interval = 150
+Mean = 569.400000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 750 150
+mode: multi-thread
+Running Test 1: Length = 750, Interval = 150
+Mean = 470.030000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 750 150
+mode: multi-thread
+Running Test 1: Length = 750, Interval = 150
+Mean = 491.000000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 750 150
+mode: multi-thread
+Running Test 1: Length = 750, Interval = 150
+Mean = 443.790000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 750 150
+mode: multi-thread
+Running Test 1: Length = 750, Interval = 150
+Mean = 493.780000 microseconds
+
+750 150 Mean = 493.6
+
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1000 200
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 200
+Mean = 524.860000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1000 200
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 200
+Mean = 538.190000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1000 200
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 200
+Mean = 514.890000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1000 200
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 200
+Mean = 534.720000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1000 200
+mode: multi-thread
+Running Test 1: Length = 1000, Interval = 200
+Mean = 520.700000 microseconds
+
+1000 200 Mean = 526.672
+
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1250 250
+mode: multi-thread
+Running Test 1: Length = 1250, Interval = 250
+Mean = 513.840000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1250 250
+mode: multi-thread
+Running Test 1: Length = 1250, Interval = 250
+Mean = 501.550000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1250 250
+mode: multi-thread
+Running Test 1: Length = 1250, Interval = 250
+Mean = 475.390000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1250 250
+mode: multi-thread
+Running Test 1: Length = 1250, Interval = 250
+Mean = 489.410000 microseconds
+admins-MacBook-Pro-4:assignment2 test$ ./thread 1250 250
+mode: multi-thread
+Running Test 1: Length = 1250, Interval = 250
+Mean = 495.850000 microseconds
+
+1250 250 Mean = 495.208
